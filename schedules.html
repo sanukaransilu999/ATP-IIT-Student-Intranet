@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>IIT Intranet · Schedules and calendars</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="student-dashboard.css" rel="stylesheet"/>
+<link href="student-pages.css" rel="stylesheet"/>
+</head>
+<body class="resource-page">
+<header class="topbar">
+<button aria-label="Open navigation" class="mobile-menu" id="menuToggle"><i class="fa-solid fa-bars"></i></button>
+<div aria-label="IIT Student Intranet" class="brand"><img alt="IIT logo" src="IIT_Logo.png"/><span>INFORMATICS<br/>INSTITUTE OF<br/><b>TECHNOLOGY</b></span></div>
+<div class="top-search"><i class="fa-solid fa-magnifying-glass"></i><input id="globalSearch" placeholder="Search resources, forms, courses..." type="search"/><kbd>⌕</kbd></div>
+<div class="top-actions">
+<button aria-label="Notifications" class="icon-button" id="notificationButton"><i class="fa-regular fa-bell"></i><span class="notification-dot"></span></button>
+<div class="account"><div class="avatar">SA</div><div class="account-info"><strong>Student Account</strong><small>2026/27</small></div><a class="signout" href="iit_intranet_portal.html">Sign out</a></div>
+</div>
+</header>
+<div class="app-shell">
+<aside class="sidebar" id="sidebar">
+<div class="sidebar-heading">STUDENT INTRANET</div>
+<nav aria-label="Main navigation" class="side-nav">
+<a class="nav-link" href="student-dashboard.html"><i class="fa-solid fa-house"></i><span>Overview</span></a>
+<a class="nav-link active" href="schedules.html"><i class="fa-regular fa-calendar-days"></i><span>Schedules</span></a>
+<a class="nav-link" href="academics.html"><i class="fa-solid fa-book-open"></i><span>Academics</span></a>
+<a class="nav-link" href="student-services.html"><i class="fa-solid fa-users"></i><span>Student services</span></a>
+<a class="nav-link" href="policies-forms.html"><i class="fa-solid fa-shield-halved"></i><span>Policies and forms</span></a>
+<a class="nav-link" href="campus-life.html"><i class="fa-regular fa-star"></i><span>Campus life</span></a>
+<a class="nav-link" href="help-support.html"><i class="fa-regular fa-circle-question"></i><span>Help and support</span></a>
+</nav>
+<div class="help-card">
+<div class="help-icon"><i class="fa-regular fa-circle-question"></i></div>
+<h3>Need some help?</h3><p>Find answers or contact the student support team.</p>
+<button class="help-action" data-resource-item="" type="button">Visit help centre <i class="fa-solid fa-arrow-right"></i></button>
+</div>
+<div class="sidebar-footer">© IIT 2026 · All rights reserved</div>
+</aside>
+<main class="main-content resource-main">
+<section class="resource-hero">
+<div class="hero-copy"><span class="section-label">PLAN YOUR YEAR</span><h1>Schedules and calendars</h1><p>Find class timetables, assessment dates, orientation information, and key events across the academic year.</p></div>
+<div class="hero-emblem"><span><i class="fa-regular fa-clock"></i></span></div>
+</section>
+<div class="resource-toolbar">
+<p><strong>9</strong> available resources</p>
+<label class="page-search"><i class="fa-solid fa-magnifying-glass"></i><input aria-label="Find a resource" id="pageSearch" placeholder="Find a resource" type="search"/></label>
+</div>
+<section aria-label="Schedules &amp; calendars resources" class="page-resource-grid">
+<article class="resource-card page-resource-card">
+<div class="resource-title">
+<span class="resource-icon"><i class="fa-regular fa-clock"></i></span>
+<div><h3>Class schedules</h3><p>Your day-to-day classes and temporary timetable updates.</p></div>
+</div>
+<div class="resource-links"><button class="resource-item" data-resource-item="" type="button"><span><i class="fa-regular fa-file-lines"></i>Time Table</span><i class="fa-solid fa-chevron-right"></i></button>
+<button class="resource-item" data-resource-item="" type="button"><span><i class="fa-regular fa-file-lines"></i>Schedules</span><i class="fa-solid fa-chevron-right"></i></button>
+<button class="resource-item" data-resource-item="" type="button"><span><i class="fa-regular fa-file-lines"></i>Temporary</span><i class="fa-solid fa-chevron-right"></i></button></div>
+</article>
+<article class="resource-card page-resource-card">
+<div class="resource-title">
+<span class="resource-icon"><i class="fa-regular fa-file-lines"></i></span>
+<div><h3>Assessments</h3><p>Plan ahead for coursework deadlines and examinations.</p></div>
+</div>
+<div class="resource-links"><button class="resource-item" data-resource-item="" type="button"><span><i class="fa-regular fa-file-lines"></i>Assessment Schedule</span><i class="fa-solid fa-chevron-right"></i></button>
+<button class="resource-item" data-resource-item="" type="button"><span><i class="fa-regular fa-file-lines"></i>Assessments</span><i class="fa-solid fa-chevron-right"></i></button></div>
+</article>
+<article class="resource-card page-resource-card">
+<div class="resource-title">
+<span class="resource-icon"><i class="fa-regular fa-calendar-days"></i></span>
+<div><h3>Academic year</h3><p>Important dates, semester milestones, and university events.</p></div>
+</div>
+<div class="resource-links"><button class="resource-item" data-resource-item="" type="button"><span><i class="fa-regular fa-file-lines"></i>Academic Calendar</span><i class="fa-solid fa-chevron-right"></i></button>
+<button class="resource-item" data-resource-item="" type="button"><span><i class="fa-regular fa-file-lines"></i>Academic Calendars</span><i class="fa-solid fa-chevron-right"></i></button>
+<button class="resource-item" data-resource-item="" type="button"><span><i class="fa-regular fa-file-lines"></i>Orientation</span><i class="fa-solid fa-chevron-right"></i></button>
+<button class="resource-item" data-resource-item="" type="button"><span><i class="fa-regular fa-file-lines"></i>Annual Events</span><i class="fa-solid fa-chevron-right"></i></button></div>
+</article>
+</section>
+<footer class="main-footer"><span>© IIT 2026 · All rights reserved</span><span>INFORMATICS INSTITUTE OF TECHNOLOGY <b>· STUDENT INTRANET</b></span></footer>
+</main>
+</div>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
+<script src="student-pages.js"></script>
+</body>
+</html>
